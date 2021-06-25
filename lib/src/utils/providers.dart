@@ -32,3 +32,5 @@ final filteredTodos = Provider<List<Todo>>((ref) {
       return todos;
   }
 });
+
+final currentTodo = ScopedProvider<Todo>(null);
